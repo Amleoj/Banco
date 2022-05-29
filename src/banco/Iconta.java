@@ -1,0 +1,12 @@
+package banco;
+
+public interface Iconta {
+
+	void sacar(double Iconta);
+	
+    void depositar(double valor);
+	
+    void transferir(double valor, Conta contaDestino);
+
+
+}
